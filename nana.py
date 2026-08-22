@@ -19,6 +19,9 @@ print(my_var)
 user_input = input(
     "Hey user Enter the number of days and i will convert it to hours: \n"
 )
-user_input_number = int(user_input)
-calculated_value = days_to_units(user_input_number)
-print(calculated_value)
+if user_input.isdigit():
+    user_input_number = int(user_input)
+    calculated_value = days_to_units(user_input_number)
+    print(calculated_value)
+else:
+    print("invalid number do not ruin my programme")
