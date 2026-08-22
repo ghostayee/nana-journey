@@ -7,6 +7,8 @@ def days_to_units(num_of_days):
         return (
             f"{num_of_days} days are {num_of_days * calculator_to_units} {name_of_unit}"
         )
+    elif num_of_days == 0:
+        return "you have entered zero enter a valid number"
     else:
         return "you have entered a negative value no calculation for you"
 
