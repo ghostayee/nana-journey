@@ -4,3 +4,6 @@ tech with nana test
 the details parts is python
 
 .>>
+
+
+learn loops 
