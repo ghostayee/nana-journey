@@ -20,11 +20,15 @@ def validate_execute():
                 print("you have entered a negative number no calculation for you ")
         else:
             return "invalid number do not ruin my programme"
+
     except ValueError:
         print("your number is not valid ")
 
 
-user_input = input(
-    "Hey user Enter the number of days and i will convert it to hours: \n"
-)
-validate_execute()
+user_input = ""
+
+while user_input != "exit":
+    user_input = input(
+        "Hey user Enter the number of days and i will convert it to hours: \n"
+    )
+    validate_execute()
